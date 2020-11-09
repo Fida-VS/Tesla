@@ -142,7 +142,7 @@ line-height: 15px;
     display: block;
 }
 
-@media (max-width: 768px) and (min-width: 375px) { 
+@media (max-width: 768px) and (min-width: 376px) { 
     .container {
         width: 768px;
     }
@@ -223,6 +223,7 @@ line-height: 15px;
     background-position: center bottom;
 }
 .tesla_info{
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 34px;
 }

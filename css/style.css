@@ -401,8 +401,27 @@ margin: 0;
         margin-top: 0;
         justify-content: center;
     }
+}
 
-    @media (max-width: 375px) {
-        
+@media (max-width: 375px) {
+    .main {
+        min-height: 500px;
+    }
+    .right-section {
+        max-width: 375px;
+        background-image: url(../img/2013-tesla-model-s-cockpit.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 270px 54px 34px 30px;
+    }
+    .main__inner {
+        height: 337px;
+        flex-direction: column;
+    }
+    .left-section h2, .features-box, .main-bottom {
+        display: none;
+    }
+    .main-top p {
+        margin-bottom: 0;
     }
 }

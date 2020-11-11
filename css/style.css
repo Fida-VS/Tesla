@@ -543,3 +543,130 @@ align-self: center;
     align-items: flex-end;
 
 }
+
+@media (max-width: 768px) and (min-width: 376px) {
+.footer__inner {
+    flex-direction: column;
+}
+.footer__right {
+    height: 550px; 
+    order: 1;
+}
+.footer__left {
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    width: 768px;
+}
+.footer__left-bottom .features {
+    display: none;
+}
+.footer__left-head {
+width: 316px;
+}
+.footer__img {
+   top: 114px;
+   left: -16px;
+   width: 750px;
+}
+.footer__model-text {
+    top: 37px;
+    right: 19px;
+    font-weight: 600;
+    font-size: 148px;
+    line-height: 180px;
+    font-size: 148px;
+    line-height: 180px;
+    width: 665px;
+}
+.footer__info {
+    font-size: 15px;
+    line-height: 13px;
+}
+.footer__info.item-1 img {
+    height: 193px;
+}
+.footer__info.item-1 {
+    left: 171px;
+    top: 121px;
+    width: 124px;
+}
+.footer__info.item-2 img {
+    height: 87px;
+}
+.footer__info.item-2 {
+    left: 372px;
+    top: 87px;
+    width: 134px;
+}
+.footer__info.item-3 img {
+    height: 77px;
+}
+.footer__info.item-3 {
+    left: 412px;
+    top: 378px;
+    width: 176px;
+}
+.footer__left-head, .footer__left-body {
+    width: 50%;
+}
+.footer__left-head {
+    padding-left: 34px;
+    padding-top: 63px;
+    padding-right: 30px;
+}
+.footer__left-body {
+    padding-left: 30px;
+    padding-right: 55px;
+    padding-top: 63px;
+}
+.footer__left-head h3{
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+
+}
+.footer__left-head p {
+margin: 0;    
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+.footer__left-body h3 {
+    margin: 0;
+    margin-bottom: 29px;
+}
+.rating {
+    margin: 0;
+    margin-bottom: 16px;
+}
+.footer__left-bottom {
+    width: 100%;
+    margin: 70px auto 64px;
+}
+.footer__left-bottom .main-bottom {
+    margin: 0;
+}
+.footer__left-bottom .information {
+    margin: 0;
+    margin-right: 36px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer__left-bottom .information img {
+     width: 31px;
+     height: 31px;  
+}
+.footer__left-bottom .order {
+    font-size: 16px;
+    line-height: 55px; 
+    width: 220px;
+    height: 55px;
+}
+}
+
+@media (max-width: 375px) {
+
+}
